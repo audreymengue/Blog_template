@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(12, 2fr);
+    grid-row: repeat(4, auto);
+    grid-template-areas: 
+        "t t n n n n n n n n n n"
+        "i i i i i i i i i i i i"
+        "e e e e e e e e e e e e"
+        "f f f f f f f f f f f f";
+
+}
+
+.title {
+    background-color: turquoise;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    grid-area: t;
+    text-align: center;
+
+}
+
+.nav-bar {
+    background-color: tomato;
+    grid-area: n;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    grid-area: n;
+    text-align: center;
+
+}
+
+.image-slider {
+    background-color: violet;
+    grid-area: i;
+}
+
+.elements {
+    background-color: yellow;
+    grid-area: e;
+}
+
+.footer {
+    background-color: yellowgreen;
+    grid-area: f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3px solid turquoise;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
