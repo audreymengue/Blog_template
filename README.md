@@ -28,4 +28,5 @@ The MIT Licence
  * Areas template are only valid if they are rectangles.
  * Auto-fit fills out the grid with as many columns as it can The entire width of the column is used.
  * The minmax function helps fixing that issue by giving minimun and maximum values to the column as the space is made available.
+ * Padding in an anchor tag defines the area of the tag that can be clicked and hovered over.
  

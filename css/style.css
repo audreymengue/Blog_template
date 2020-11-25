@@ -17,24 +17,23 @@ body {
 }
 
 .title {
-    background-color: turquoise;
+    background-color: blue;
     font-size: 20px;
     font-weight: bold;
     color: white;
     grid-area: t;
     text-align: center;
-    border-right-style: 5px;
 }
 
 .nav-bar {
-    background-color: tomato;
+    background-color: white;
     grid-area: n;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #707070;
     grid-area: n;
     text-align: center;
-
+    height: 52px;
 }
 
 .slideshow-container {
@@ -43,7 +42,6 @@ body {
     height: 300px;
     display: flex;
     overflow-x: auto;
-    scroll-behavior: smooth;
 }
 
 .elements {
@@ -60,7 +58,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    overflow: hidden;
 }
 
 li {
@@ -69,9 +67,21 @@ li {
     padding-right: 20px;
 }
 
-a {
+li p {
+    padding: 14px 16px;
+    margin: 0;
+    font-weight: normal;
+}
+
+li span {
+    font-weight: bold;
+}
+
+li a {
     text-decoration: none;
     display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 a:link {
@@ -83,7 +93,7 @@ a:visited {
 }
 
 a:hover {
-    border-bottom: 3px solid turquoise;
+    border-bottom: 1px solid blue;
 }
 
 a:active {
@@ -98,7 +108,3 @@ a:active {
   padding: 0;
 }
 
-img {
-  width: 100%;
-  height: 297px;
-}
