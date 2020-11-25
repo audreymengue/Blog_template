@@ -29,4 +29,6 @@ The MIT Licence
  * Auto-fit fills out the grid with as many columns as it can The entire width of the column is used.
  * The minmax function helps fixing that issue by giving minimun and maximum values to the column as the space is made available.
  * Padding in an anchor tag defines the area of the tag that can be clicked and hovered over.
- 
+ * For the image container, we have to make sure all the images have the same exact size of the image container.
+ * The width of the container that holds all the images must be equal to the width of all images combined but the height remains the same.
+ * The "overflow:hidden" property will stack the images one upon the other.
