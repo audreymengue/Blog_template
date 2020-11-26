@@ -12,6 +12,7 @@ body {
         "t t t n n n n n n n n n"
         "i i i i i i i i i i i i"
         "e e e e e e e e e e e e"
+        "s s s s s s s s s s s s"
         "f f f f f f f f f f f f";
 
 }
@@ -38,7 +39,6 @@ body {
 
 .slideshow-container {
     grid-area: i;
-    width: 1000px;
     height: 300px;
     display: flex;
     margin-left: auto;
@@ -91,9 +91,49 @@ body {
     float: left;
     width: 25%;
 }
+
+
 .elements {
-    background-color: yellow;
+    background-color: #eeeeee;
     grid-area: e;
+}
+
+.elements-trip {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.trips {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.first-span {
+    color: #cbbcb1;
+}
+
+.second-span {
+    color: blue;
+    text-decoration: underline;
+}
+.text {
+    text-align: left;
+}
+
+.section {
+    grid-area: s;
+}
+
+.section-element {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-element img{
+    position: relative;
+    top: 20px;
 }
 
 .footer {

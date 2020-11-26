@@ -32,3 +32,4 @@ The MIT Licence
  * For the image container, we have to make sure all the images have the same exact size of the image container.
  * The width of the container that holds all the images must be equal to the width of all images combined but the height remains the same.
  * The "overflow:hidden" property will stack the images one upon the other.
+ * The width shouldn't be defined if we want to make the slider/image-slider responsive.
